@@ -26,3 +26,5 @@ hand = Motor(Ports.PORT1)
 dt.drive_for(FORWARD,10)
 
 hand.spin_to_position(-60,DEGREES)
+
+arm.spin_to_position(90,DEGREES)
