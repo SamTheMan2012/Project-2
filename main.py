@@ -27,4 +27,10 @@ dt.drive_for(FORWARD,10)
 
 hand.spin_to_position(-60,DEGREES)
 
+hand.spin_to_position(60,DEGREES)
+
 arm.spin_to_position(90,DEGREES)
+
+
+
+
