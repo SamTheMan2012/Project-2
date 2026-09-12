@@ -19,7 +19,7 @@ lm = Motor(Ports.PORT2)
 
 dt = DriveTrain(rm,lm)
 
-arm = Motor(Ports.PORT7)
+arm = Motor(Ports.PORT7,True)
 
 hand = Motor(Ports.PORT1)
 
