@@ -31,6 +31,11 @@ hand.spin_to_position(60,DEGREES)
 
 arm.spin_to_position(90,DEGREES)
 
+dt.drive_for(REVERSE,10)
+
+arm.spin_to_position(-90,DEGREES)
+
+hand.spin_to_position(-60,DEGREES)
 
 
 
