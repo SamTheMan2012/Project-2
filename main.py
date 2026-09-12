@@ -19,23 +19,23 @@ lm = Motor(Ports.PORT2)
 
 dt = DriveTrain(rm,lm)
 
-arm = Motor(Ports.PORT7,True)
+arm = Motor(Ports.PORT7)
 
 hand = Motor(Ports.PORT1)
 
 dt.drive_for(FORWARD,10)
 
-hand.spin_to_position(-60,DEGREES)
+hand.spin_to_position(45,DEGREES)
 
-hand.spin_to_position(60,DEGREES)
+hand.spin_to_position(-45,DEGREES)
 
-arm.spin_to_position(90,DEGREES)
+arm.spin_to_position(0,DEGREES)
 
 dt.drive_for(REVERSE,10)
 
-arm.spin_to_position(-90,DEGREES)
+arm.spin_to_position(254,DEGREES)
 
-hand.spin_to_position(-60,DEGREES)
+hand.spin_to_position(30,DEGREES)
 
 
 
