@@ -7,6 +7,7 @@
 #                                                                              #
 # ---------------------------------------------------------------------------- #
 
+# Library imports
 from vex import *
 
 # Brain should be defined by default
@@ -25,17 +26,21 @@ hand = Motor(Ports.PORT1)
 
 dt.drive_for(FORWARD,10)
 
-hand.spin_to_position(45,DEGREES)
 
-hand.spin_to_position(-45,DEGREES)
-
-arm.spin_to_position(0,DEGREES)
+arm.spin_to_position(-254,DEGREES)
 
 dt.drive_for(REVERSE,10)
 
-arm.spin_to_position(254,DEGREES)
+arm.spin_to_position(-30,DEGREES)
 
-hand.spin_to_position(30,DEGREES)
+
+
+
+
+
+
+
+
 
 
 
